@@ -1,1 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
 
+body {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.flex-container {
+    width: 100%;
+    max-width: none;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight:200;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight:300;
+}
+
+p {
+    font-size: 21px;
+    color: gray;
+}
+
+a {
+    color: aquamarine;
+    display: block;
+}
+
+.copyright {
+    text-align: right;
+    color: gray;
+    padding-right: 10px;
+}
